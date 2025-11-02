@@ -13,3 +13,6 @@
 [submodule "src/apps/UI_Customization_Platform/beglaze"]
 	path = src/apps/UI_Customization_Platform/beglaze
 	url = https://github.com/RegularGuyThatCodes/beglaze
+[submodule "src/apps/optional_terminal_platform/ezterm"]
+	path = src/apps/optional_terminal_platform/ezterm
+	url = https://github.com/blobsls/ezterm
