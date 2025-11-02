@@ -10,3 +10,6 @@
 [submodule "src/protocol_not_active/lizard"]
 	path = src/protocol_not_active/lizard
 	url = https://github.com/Lizardeis/Lizard
+[submodule "src/apps/UI_Customization_Platform/beglaze"]
+	path = src/apps/UI_Customization_Platform/beglaze
+	url = https://github.com/RegularGuyThatCodes/beglaze
