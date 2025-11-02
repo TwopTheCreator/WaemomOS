@@ -7,3 +7,6 @@
 [submodule "src/apps/MonobrainsCodeEditor"]
 	path = src/apps/MonobrainsCodeEditor
 	url = https://github.com/TwopTheCreator/Monobrains
+[submodule "src/protocol_not_active/lizard"]
+	path = src/protocol_not_active/lizard
+	url = https://github.com/Lizardeis/Lizard
