@@ -1,3 +1,9 @@
 [submodule "opkg/coco"]
 	path = opkg/coco
 	url = https://github.com/cocoatly/cocoatly
+[submodule "src/apps/src/apps/MonobrainsCodeEditor"]
+	path = src/apps/src/apps/MonobrainsCodeEditor
+	url = https://github.com/TwopTheCreator/Monobrains
+[submodule "src/apps/MonobrainsCodeEditor"]
+	path = src/apps/MonobrainsCodeEditor
+	url = https://github.com/TwopTheCreator/Monobrains
