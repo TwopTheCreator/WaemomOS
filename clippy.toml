@@ -1,0 +1,2 @@
+warn = ["all"]
+allow = ["module_name_repetitions", "too_many_lines"]
