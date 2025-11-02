@@ -1,0 +1,3 @@
+[submodule "opkg/coco"]
+	path = opkg/coco
+	url = https://github.com/cocoatly/cocoatly
