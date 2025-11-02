@@ -1,0 +1,30 @@
+[package]
+name = "waemom"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bootloader = "0.10"
+bootloader-api = "0.10"
+volatile = "0.4"
+spin = "0.9"
+x86_64 = "0.14"
+bitflags = "2"
+uart_16550 = "0.2"
+lazy_static = { version = "1.4", features = ["spin_no_std"] }
+smoltcp = { version = "0.11.0", default-features = false, features = ["proto-ipv4", "socket-udp", "socket-tcp", "medium-ethernet", "ethernet"] }
+pc-keyboard = "0.7"
+pic8259 = "0.10"
+heapless = "0.8"
+
+[features]
+default = []
+
+[dev-dependencies]
+bootimage = "0.10"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

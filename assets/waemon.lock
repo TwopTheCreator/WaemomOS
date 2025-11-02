@@ -1,0 +1,16 @@
+[elf]
+enabled=true
+max_bytes=4096
+
+[linux]
+mode=true
+
+[web]
+enabled=true
+
+[ui]
+language="en-US"
+font_scale=1
+icons=true
+animations=true
+loading_animations=true
